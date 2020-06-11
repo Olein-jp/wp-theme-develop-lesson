@@ -289,10 +289,5 @@
 		<p class="p-copyright">My Portfolio©︎ AllRights Reserved.</p>
 	</footer>
 </div>
-<script
-	src="https://code.jquery.com/jquery-1.12.4.min.js"
-	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-	crossorigin="anonymous"></script>
-<script src="/wp-content/themes/wp-lesson-complete-theme/js/script.js"></script>
 </body>
 </html>
