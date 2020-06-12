@@ -27,6 +27,10 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 
 各セクションの詳しいレッスン内容については、それぞれのテーマファイル内にあるドキュメントを参照してください。
 
+### 事前にインストールしてほしいプラグイン
+* [Show Current Template](https://ja.wordpress.org/plugins/show-current-template/)
+* [WP Multibyte Patch](https://ja.wordpress.org/plugins/wp-multibyte-patch/)
+
 ### レッスンセクション内容
 1. ガイダンス（進め方など）
 1. [テーマの雛形を作る](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-01)（`functions.php`/`index.php`/`style.css`/`screenshot.png`）
