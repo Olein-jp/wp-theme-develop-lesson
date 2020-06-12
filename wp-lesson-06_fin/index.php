@@ -18,7 +18,7 @@
 		<div class="p-site-header__inner c-container">
 			<figure class="p-site-icon">
 				<img class="p-site-icon__image"
-					 src="/wp-content/themes/wp-lesson-complete-theme/images/portfolio-icon.png"
+					 src="/wp-content/themes/wp-lesson-06/images/portfolio-icon.png"
 					 alt="オレインアイコン">
 			</figure>
 			<h1 class="p-site-title">My Portfolio</h1>
@@ -298,7 +298,7 @@
 		src="https://code.jquery.com/jquery-1.12.4.min.js"
 		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
 		crossorigin="anonymous"></script>
-<script src="/wp-content/themes/wp-lesson-complete-theme/js/script.js"></script>
+<script src="/wp-content/themes/wp-lesson-06/js/script.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

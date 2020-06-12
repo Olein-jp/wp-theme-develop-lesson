@@ -13,7 +13,7 @@
 	<header class="p-site-header">
 		<div class="p-site-header__inner c-container">
 			<figure class="p-site-icon">
-				<img class="p-site-icon__image" src="/wp-content/themes/wp-lesson-complete-theme/images/portfolio-icon.png"
+				<img class="p-site-icon__image" src="/wp-content/themes/wp-lesson-03/images/portfolio-icon.png"
 				     alt="オレインアイコン">
 			</figure>
 			<h1 class="p-site-title">My Portfolio</h1>
