@@ -39,7 +39,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [JavaScriptを読み込む（ハードコーディング）](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-04)
 1. [テンプレートタグを使ってみよう](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-05) （`wp_head()`/`wp_footer()`/`body_class()`）
 1. [CSSファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-06) （`get_stylesheet_uri()`）
-1. [画像ファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-07) （`get_theme_file_uri()`）
+1. [画像ファイル・JavaScriptファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-07) （`get_theme_file_uri()`）
 1. サイト内リンクの設定（`home_url()`）
 1. functions.phpを作成する
 	1. `after_setup_theme`にフックするもの
