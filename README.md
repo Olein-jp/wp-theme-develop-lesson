@@ -28,7 +28,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 各セクションの詳しいレッスン内容については、それぞれのテーマファイル内にあるドキュメントを参照してください。
 
 ### 事前に行なって欲しいこと
-- WordPressにテーマユニットテストのデータをインポート
+- WordPressにテーマユニットテストのデータをインポート（参照：[テーマユニットテスト](https://wpdocs.osdn.jp/%E3%83%86%E3%83%BC%E3%83%9E%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E3%83%86%E3%82%B9%E3%83%88) ）
 
 ### 事前にインストールしてほしいプラグイン
 * [Show Current Template](https://ja.wordpress.org/plugins/show-current-template/)
@@ -44,8 +44,9 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [CSSファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-06) （`get_stylesheet_uri()`）
 1. [画像ファイル・JavaScriptファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-07) （`get_theme_file_uri()`）
 1. [サイト内リンクの設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-08) （`home_url()`）
-1. functions.phpを作成する
+1. [functions.phpを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-09)
 	1. `after_setup_theme`にフックするもの
+	1. `$content_width`を設定する
 	1. `wp_enqueue_scripts`でCSSとJavaScriptを読み込む
 1. 投稿一覧をループで作成する（`have_posts()` `the_post()`）
 1. 各投稿ごとの情報をCSSクラスとして出力してくれる `post_class()`について
