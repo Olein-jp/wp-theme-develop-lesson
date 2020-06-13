@@ -49,7 +49,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 	1. `$content_width`を設定する
 	1. `wp_enqueue_scripts`でCSSとJavaScriptを読み込む
 1. [投稿一覧をループで作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-10) （`have_posts()` `the_post()`）
-1. 各投稿ごとの情報をCSSクラスとして出力してくれる `post_class()`について
+1. [各投稿ごとの情報を設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-10) （`the_ID()` `post_class()`）
 1. 投稿データを表示するためのテンプレートタグを設置する
 1. カテゴリーとタグを出力するテンプレートタグについて
 1. 前後のページへのリンク（ページネーション）を出力する
