@@ -27,6 +27,9 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 
 各セクションの詳しいレッスン内容については、それぞれのテーマファイル内にあるドキュメントを参照してください。
 
+### 事前に行なって欲しいこと
+- WordPressにテーマユニットテストのデータをインポート
+
 ### 事前にインストールしてほしいプラグイン
 * [Show Current Template](https://ja.wordpress.org/plugins/show-current-template/)
 * [WP Multibyte Patch](https://ja.wordpress.org/plugins/wp-multibyte-patch/)
@@ -58,4 +61,4 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. カスタムページテンプレートの使い方
 1. ウィジェットを利用できるようにする
 1. カスタムメニューを利用できるようにする
-1. カスタムロゴを利用できるようにする
+1. ブロックエディタを活用できるようにする
