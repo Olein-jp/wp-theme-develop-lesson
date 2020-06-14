@@ -11,7 +11,12 @@
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'c-hentry' ); ?>>
 						<figure class="c-hentry-thumbnail">
 							<a href="<?php the_permalink(); ?>">
-								<img src="http://placehold.it/800x600" alt="アイキャッチ画像">
+								<?php if ( has_post_thumbnail() ) : ?>
+									<?php the_post_thumbnail(); ?>
+								<?php else : ?>
+									<img src="<?php echo get_theme_file_uri() . '/images/no-thumbnail.png'; ?>"
+										 alt="ダミーアイキャッチ画像">
+								<?php endif; ?>
 							</a>
 						</figure>
 						<div class="c-hentry-content">
