@@ -50,3 +50,10 @@ echo esc_url( home_url() );
 ```
 
 他のメニューリンクも同様に変更してみましょう。
+
+### その他ウェブサイトの情報を出力させる
+以下のテンプレートタグなどを利用してウェブサイトの情報をマークアップに出力します。
+
+* `bloginfo( 'name' )`
+* `language_attributes()`
+* `bloginfo( 'charset' )`
