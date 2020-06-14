@@ -1,11 +1,9 @@
 <!doctype html>
-<html lang="ja">
+<html lang="<?php language_attributes(); ?>">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>My Portfolio</title>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -18,8 +16,8 @@
 					 src="<?php echo get_theme_file_uri(); ?>/images/portfolio-icon.png"
 					 alt="オレインアイコン">
 			</figure>
-			<h1 class="p-site-title">My Portfolio</h1>
-			<p class="p-site-description">オレインのポートフォリオ用ウェブサイトです。</p>
+			<h1 class="p-site-title"><?php bloginfo( 'name' ); ?></h1>
+			<p class="p-site-description"><?php bloginfo( 'description' ); ?></p>
 		</div>
 	</header>
 	<!-- end SITE HEADER -->

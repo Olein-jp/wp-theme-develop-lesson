@@ -43,7 +43,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [テンプレートタグを使ってみよう](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-05) （`wp_head()`/`wp_footer()`/`body_class()`）
 1. [CSSファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-06) （`get_stylesheet_uri()`）
 1. [画像ファイル・JavaScriptファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-07) （`get_theme_file_uri()`）
-1. [サイト内リンクの設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-08) （`home_url()`）
+1. [サイト内リンクの設定/ウェブサイト名などの表示](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-08) （`home_url()` `bloginfo( 'name' )` `language_attributes()` `bloginfo( 'charset' )`）
 1. [functions.phpを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-09)
 	1. `after_setup_theme`にフックするもの
 	1. `$content_width`を設定する
@@ -55,7 +55,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [共通部分をテンプレートファイルとしてまとめる](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14) （show current temlplateで確認）
 1. 記事詳細ページ用のテンプレートファイル（`single.php`）を作成する（前後の投稿へのリンクも`the_post_navigation()`
 1. 固定ページ用のテンプレートファイル（`page.php`）を作成する
-1. アーカイブページの作成とテンプレートの優先順について
+1. アーカイブページ（`archive.php`）の作成とテンプレートの優先順について
 1. `front-page.php`の使い方
 1. カスタムページテンプレートの使い方
 1. ウィジェットを利用できるようにする
