@@ -51,7 +51,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [投稿一覧をループで作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-10) （`have_posts()` `the_post()`）
 1. [各投稿ごとの情報を設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-11) （`the_ID()` `post_class()`）
 1. [投稿データを表示するためのテンプレートタグを設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-12) （`the_title()` `the_permalink()` `the_time()` `the_category()` `the_tags()`）
-1. 前後のページへのリンク（ページネーション）を出力する
+1. [ページネーションを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-13) （`the_posts_pagination()`）
 1. 共通部分をテンプレートファイルとしてまとめる（show current temlplateで確認）複数のテンプレートにしたい時など（`get_header( ‘secondary’ )`とか）
 1. 各ページごとに読み込まれるテンプレートの優先順位について
 1. 記事詳細ページ用のテンプレートファイル（`single.php`）を作成する（前後の投稿へのリンクも`the_post_navigation()`
