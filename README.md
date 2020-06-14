@@ -53,11 +53,10 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [投稿データを表示するためのテンプレートタグを設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-12) （`the_title()` `the_permalink()` `the_time()` `the_category()` `the_tags()`）
 1. [ページネーションを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-13) （`the_posts_pagination()`）
 1. [共通部分をテンプレートファイルとしてまとめる](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14) （show current temlplateで確認）
-1. 各ページごとに読み込まれるテンプレートの優先順位について
 1. 記事詳細ページ用のテンプレートファイル（`single.php`）を作成する（前後の投稿へのリンクも`the_post_navigation()`
-1. 固定ページ用のテンプレートファイル（`page.php`）を作成する 
+1. 固定ページ用のテンプレートファイル（`page.php`）を作成する
+1. アーカイブページの作成とテンプレートの優先順について
 1. `front-page.php`の使い方
-1. `home.php`と`front-page.php`との違い
 1. カスタムページテンプレートの使い方
 1. ウィジェットを利用できるようにする
 1. カスタムメニューを利用できるようにする
