@@ -34,6 +34,12 @@ function oleinlab_theme_support() {
 	// ブロックにて「幅広」や「全幅」を設定できるようにする
 	add_theme_support( 'align-wide' );
 
+	// ブロックエディタにデフォルトのブロックスタイルを導入
+	add_theme_support( 'wp-block-styles' );
+
+	// iframeを使うメディアコンテンツをレスポンシブ対応にする
+	add_theme_support( 'responsive-embeds' );
+
 	// コンテンツ幅を設定
 	global $content_width;
 	if ( ! isset( $content_width ) ) {

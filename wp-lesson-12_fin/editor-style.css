@@ -1,3 +1,138 @@
 body {
-    background-color: yellow;
-}
+  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+  color: #555555; }
+
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  margin-top: 1em; }
+
+h1 {
+  font-size: 28px; }
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #6489CC; }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+a {
+  color: #6489CC;
+  transition: all .5s ease; }
+  a:hover {
+    color: #6489CC; }
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 2em; }
+  p strong {
+    color: #6489CC;
+    font-weight: bold; }
+
+figure {
+  margin: 2em 0; }
+  figure figcaption {
+    margin-top: 10px; }
+
+ul,
+ol {
+  margin: 0 0 2em;
+  padding-left: 0;
+  list-style-type: none; }
+  ul li,
+  ol li {
+    position: relative;
+    margin-bottom: 1em; }
+    ul li ul,
+    ul li ol,
+    ol li ul,
+    ol li ol {
+      margin: 1em 0;
+      padding-left: 1em; }
+      ul li ul li,
+      ul li ol li,
+      ol li ul li,
+      ol li ol li {
+        margin-bottom: 1em; }
+
+dl {
+  margin-bottom: 2em;
+  line-height: 1.5; }
+  dl dt {
+    font-weight: bold; }
+  dl dd {
+    margin-bottom: 1em; }
+
+blockquote {
+  background: #f4f4f4;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 1.5em; }
+  blockquote p {
+    font-size: 14px;
+    font-style: italic; }
+    blockquote p:last-child {
+      margin-bottom: 0; }
+
+table {
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border: 1px solid #ccc; }
+  table td,
+  table th {
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 5px; }
+  table th {
+    text-align: center; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom; }
+
+figure {
+  max-width: 100% !important; }
+
+.wp-caption.aligncenter,
+.wp-caption.alignnone {
+  margin-bottom: 2em; }
+
+.alignleft {
+  float: left;
+  margin-right: 1em; }
+
+.alignright {
+  float: right;
+  margin-left: 1em; }
+
+.aligncenter {
+  margin: 0 auto; }
+
+.wp-caption-text {
+  font-size: 12px; }
+
+pre {
+  background: #f4f4f4;
+  padding: 1em;
+  border-radius: 5px;
+  white-space: pre-wrap; }
+
+/*# sourceMappingURL=editor-style.css.map */

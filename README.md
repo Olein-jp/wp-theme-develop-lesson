@@ -57,6 +57,5 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [アーカイブページ（`archive.php`）の作成](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-16)
 1. [ホームページ表示に対応する`front-page.php`を作る](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-17)
 1. カスタムページテンプレートの使い方
-1. ウィジェットを利用できるようにする
-1. カスタムメニューを利用できるようにする
-1. ブロックエディタを活用できるようにする
+1. ウィジェットを利用できるようにする（`register_sidebar()` `dynamic_sidebar()`）
+1. カスタムメニューを利用できるようにする（`register_nav_menus()` `wp_nav_menu()`）
