@@ -3,7 +3,7 @@
 	<div class="l-content-area c-container">
 		<!-- start MAIN -->
 		<main class="l-content">
-			<h1 class="p-archive-title">BLOG</h1>
+			<h1 class="p-archive-title"><?php the_archive_title(); ?></h1>
 
 			<?php if ( have_posts() ) : ?>
 				<?php while ( have_posts() ) : the_post(); ?>

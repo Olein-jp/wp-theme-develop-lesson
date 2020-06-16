@@ -53,7 +53,6 @@ function oleinlab_theme_support() {
 		)
 	);
 }
-
 add_action( 'after_setup_theme', 'oleinlab_theme_support' );
 
 /***
@@ -65,7 +64,6 @@ function oleinlab_register_styles() {
 	// Google font CSS
 	wp_enqueue_style( 'olenlab-google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap' );
 }
-
 add_action( 'wp_enqueue_scripts', 'oleinlab_register_styles' );
 
 /**
@@ -75,7 +73,6 @@ function oleinlab_register_scripts() {
 	// メインJavaScriptファイル
 	wp_enqueue_script( 'oleinlab-script', get_theme_file_uri() . '/js/script.js', array( 'jquery' ), '20100613', true );
 }
-
 add_action( 'wp_enqueue_scripts', 'oleinlab_register_scripts' );
 
 /**

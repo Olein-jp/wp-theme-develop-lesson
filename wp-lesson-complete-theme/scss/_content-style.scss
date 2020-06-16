@@ -1,0 +1,165 @@
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $primary-color;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+a {
+  color: $primary-color;
+  transition: all .5s ease;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 2em;
+  strong {
+    color: $primary-color;
+    font-weight: bold;
+  }
+}
+
+figure {
+  margin: 2em 0;
+  figcaption {
+    margin-top: 10px;
+  }
+}
+
+ul,
+ol {
+  margin: 0 0 2em;
+  padding-left: 0;
+  list-style-type: none;
+  li {
+    position: relative;
+    margin-bottom: 1em;
+    ul,
+    ol {
+      margin: 1em 0;
+      padding-left: 1em;
+      li {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
+
+dl {
+  margin-bottom: 2em;
+  line-height: 1.5;
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-bottom: 1em;
+  }
+}
+
+blockquote {
+  background: #f4f4f4;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+
+  p {
+    font-size: 14px;
+    font-style: italic;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+table {
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+
+  td,
+  th {
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  th {
+    text-align: center;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+figure {
+  max-width: 100% !important;
+}
+
+.wp-caption.aligncenter,
+.wp-caption.alignnone {
+  margin-bottom: 2em;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 1em;
+}
+
+.alignright {
+  float: right;
+  margin-left: 1em;
+}
+
+.aligncenter {
+  margin: 0 auto;
+}
+
+.wp-caption-text {
+  font-size: 12px;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 1em;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
