@@ -54,8 +54,8 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [ページネーションを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-13) （`the_posts_pagination()`）
 1. [共通部分をテンプレートファイルとしてまとめる](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14) （show current temlplateで確認）
 1. [記事詳細ページ（`single.php`）、固定ページ（`page.php`）のテンプレートファイルを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-15) （`the_post_navigation()`/`<h1>`タグの分岐設置など）
-1. [アーカイブページ（`archive.php`）の作成](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-16)
-1. [ホームページ表示に対応する`front-page.php`を作る](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-17)
-1. [カスタムページテンプレートの使い方](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-18)
-1. [ウィジェットを利用できるようにする](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-19) （`register_sidebar()` `dynamic_sidebar()`）
-1. [カスタムメニューを利用できるようにする](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-20) （`register_nav_menus()` `wp_nav_menu()`）
+1. [アーカイブページ（`archive.php`）の作成](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14)
+1. [ホームページ表示に対応する`front-page.php`を作る](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-17)
+1. [カスタムページテンプレートの使い方](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-18)
+1. [ウィジェットを利用できるようにする](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-19) （`register_sidebar()` `dynamic_sidebar()`）
+1. [カスタムメニューを利用できるようにする](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-20) （`register_nav_menus()` `wp_nav_menu()`）
