@@ -19,7 +19,7 @@
 管理画面で指定したフォーマットで出力する場合には、
 
 ```html
-<?php the_time( get_option( 'date_format' ); ?>
+<?php the_time( get_option( 'date_format' ) ); ?>
 ```
 
 参照：[テンプレートタグ/the time](https://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_time)
