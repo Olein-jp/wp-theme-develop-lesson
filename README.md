@@ -35,7 +35,8 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 * [WP Multibyte Patch](https://ja.wordpress.org/plugins/wp-multibyte-patch/)
 
 ### レッスンセクション内容
-1. ガイダンス（進め方など）
+- ガイダンス（進め方など）
+
 1. [テーマの雛形を作る](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-01)（`functions.php`/`index.php`/`style.css`/`screenshot.png`）
 1. [style.cssにテーマ用コメントを付ける](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-02)
 1. [CSSスタイルを読み込む（ハードコーディング）](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-03)
