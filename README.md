@@ -41,7 +41,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 1. [style.cssにテーマ用コメントを付ける](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-02)
 1. [CSSスタイルを読み込む（ハードコーディング）](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-03)
 1. [JavaScriptを読み込む（ハードコーディング）](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-04)
-1. [テンプレートタグを使ってみよう](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-05) （`wp_head()`/`wp_footer()`/`body_class()`）
+1. [テンプレートタグを使ってみよう](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-05) （`wp_head()`/`wp_footer()`/`body_class()`/`wp_body_open()`）
 1. [CSSファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-06) （`get_stylesheet_uri()`）
 1. [画像ファイル・JavaScriptファイルへのリンク設定](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-07) （`get_theme_file_uri()`）
 1. [サイト内リンクの設定/ウェブサイト名などの表示](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-08) （`home_url()` `bloginfo( 'name' )` `language_attributes()` `bloginfo( 'charset' )`）

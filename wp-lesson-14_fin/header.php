@@ -7,6 +7,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <div class="l-site">
 	<!-- start SITE HEADER -->
 	<header class="p-site-header">
