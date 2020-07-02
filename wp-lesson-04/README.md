@@ -19,7 +19,7 @@
 先ほど挿入したソースコードに、以下のソースコードを設置します。
 
 ```html
-<script src="/wp-content/themes/wp-lesson-complete-theme/js/script.js"></script>
+<script src="/wp-content/themes/wp-lesson-04/js/script.js"></script>
 ```
 
 このソースコードには、スマートフォンでの表示した際のメニューボタンの挙動に関するソースコードが記述されています。ブラウザ幅を狭めて確認してみると、ハンバーガーメニューをタップすると問題なくメニューが動作していることが確認できるはずです。
