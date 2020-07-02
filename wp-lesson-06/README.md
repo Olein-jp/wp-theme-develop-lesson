@@ -43,7 +43,7 @@ https://sample.com/wp-content/themes/wp-lesson-06/style.css
 とした場合、出力されるパスは、
 
 ```html
-<link rel="stylesheet" href="https://sample.com/wp-content/themes/wp-lesson-06_fin">
+<link rel="stylesheet" href="https://sample.com/wp-content/themes/wp-lesson-06">
 ```
 
 となります。こちらを使うこともできなくはありませんが、その場合は、
