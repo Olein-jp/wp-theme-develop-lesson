@@ -22,6 +22,24 @@
 <?php wp_head(); ?>
 ```
 
+## `wp_body_open()`とは？
+`wp_body_open`アクションをスタートさせます。
+
+## `wp_body_open()`の設置
+`<body>`タグの直後に設置します。
+
+利用方法は、
+
+```php
+add_action( 'wp_body_open', 'use_wp_body_opne' );
+ 
+function use_wp_body_opne() {
+    echo '出力したいコードなどを設置（Google関連など）';
+}
+```
+
+このような形で使われることが多いでしょう。とても便利です。
+
 ## `wp_footer()`とは？
 `wp_footer`アクションをスタートさせます。利用する場所は、テーマテンプレートファイル内の`</body>`タグ直前です。
 
