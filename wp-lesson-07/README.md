@@ -14,7 +14,7 @@ https://sample.com/wp-content/themes/wp-lesson-07
 `index.php`ファイルを開いて、21行目を確認してみましょう。`<img>`タグの`src`属性が以下のように設定してあります。
 
 ```html
-src="/wp-content/themes/wp-lesson-complete-theme/images/portfolio-icon.png"
+src="/wp-content/themes/wp-lesson-07/images/portfolio-icon.png"
 ```
 
 こちらを以下のように書き換えてみましょう。
@@ -29,7 +29,7 @@ src="<?php echo get_theme_file_uri(); ?>/images/portfolio-icon.png"
 上と同様に、301行あたりにあるJavaScriptファイルへのパスを置き換えてみましょう。現状は、
 
 ```html
-<script src="/wp-content/themes/wp-lesson-complete-theme/js/script.js"></script>
+<script src="/wp-content/themes/wp-lesson-07/js/script.js"></script>
 ```
 
 となっているので、
