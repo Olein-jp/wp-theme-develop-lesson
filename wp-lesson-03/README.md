@@ -11,7 +11,7 @@ CSSファイルを読み込むために`<head> </head>`内に`<link>`を設置�
 以下のコードを`<title>〜`の後に入力してみましょう。
 
 ```html
-<link rel="stylesheet" href="/wp-content/themes/wp-lesson-complete-theme/style.css">
+<link rel="stylesheet" href="/wp-content/themes/wp-lesson-03/style.css">
 ```
 
 入力が終わったら保存をして、サイトを更新して表示を確認してみましょう。
