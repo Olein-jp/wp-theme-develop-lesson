@@ -10,6 +10,7 @@
 
 * `wp_head()`
 * `wp_footer()`
+* `wp_body_open()`
 * `body_class()`
 
 ## `wp_head()`とは？
@@ -31,9 +32,9 @@
 利用方法は、
 
 ```php
-add_action( 'wp_body_open', 'use_wp_body_opne' );
+add_action( 'wp_body_open', 'use_wp_body_open' );
  
-function use_wp_body_opne() {
+function use_wp_body_open() {
     echo '出力したいコードなどを設置（Google関連など）';
 }
 ```
