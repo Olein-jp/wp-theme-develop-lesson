@@ -19,8 +19,7 @@
 <?php if ( has_post_thumbnail() ) : ?>
 	<?php the_post_thumbnail(); ?>
 <?php else : ?>
-	<img src="<?php echo get_theme_file_uri() . '/images/no-thumbnail.png'; ?>"
-										 alt="ダミーアイキャッチ画像">
+	<img src="<?php echo get_theme_file_uri() . '/images/no-thumbnail.png'; ?>" alt="ダミーアイキャッチ画像">
 <?php endif; ?>
 ```
 
