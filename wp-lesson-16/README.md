@@ -3,11 +3,15 @@
 
 カテゴリーやタグのアーカイブページのテンプレートファイル優先順は以下のようになります。
 
+カテゴリーの優先順位
+
 1. `category-{slug}.php`
 1. `category-{id}.php`
 1. `category.php`
 1. `archive.php`
 1. `index.php`
+
+タグの優先順位
 
 1. `tag-{slug}.php`
 1. `tag-{id}.php`
