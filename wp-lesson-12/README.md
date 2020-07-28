@@ -8,6 +8,22 @@
 
 参照：[テンプレートタグ/the permalink](https://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_permalink)
 
+## 'the_post_thumbnail()`
+設定されているアイキャッチ画像を表示します。
+
+参照：[テンプレートタグ/the post thumbnail](https://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_post_thumbnail)
+
+アイキャッチ画像が設定されている時とそうでない時の分岐の方法
+
+```html
+<?php if ( has_post_thumbnail() ) : ?>
+	<?php the_post_thumbnail(); ?>
+<?php else : ?>
+	<img src="<?php echo get_theme_file_uri() . '/images/no-thumbnail.png'; ?>"
+										 alt="ダミーアイキャッチ画像">
+<?php endif; ?>
+```
+
 ## `the_title()`
 投稿のタイトルを表示します。必ずループの中で使用する必要があります。
 
