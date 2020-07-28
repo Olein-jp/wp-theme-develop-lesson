@@ -8,7 +8,7 @@
 
 参照：[テンプレートタグ/the permalink](https://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_permalink)
 
-## 'the_post_thumbnail()`
+## `the_post_thumbnail()`
 設定されているアイキャッチ画像を表示します。
 
 参照：[テンプレートタグ/the post thumbnail](https://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/the_post_thumbnail)
