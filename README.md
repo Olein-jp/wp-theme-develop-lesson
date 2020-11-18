@@ -50,7 +50,7 @@ WordPressに関する基本的な知識というのは、一般的なユーザ�
 	1. `$content_width`を設定する
 	1. `wp_enqueue_scripts`でCSSとJavaScriptを読み込む
 1. [投稿一覧をループで作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-10) （`have_posts()` `the_post()`）
-1. [各投稿ごとの情報を設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-11) （`the_ID()` `post_class()`）
+1. [各投稿ごとの情報を出力させる](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-11) （`the_ID()` `post_class()`）
 1. [投稿データを表示するためのテンプレートタグを設置する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-12) （`the_title()` `the_permalink()` `the_time()` `the_category()` `the_tags()`）
 1. [ページネーションを作成する](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-13) （`the_posts_pagination()`）
 1. [共通部分をテンプレートファイルとしてまとめる](https://github.com/Olein-jp/wp-theme-develop-lesson/tree/master/wp-lesson-14) （show current temlplateで確認）
